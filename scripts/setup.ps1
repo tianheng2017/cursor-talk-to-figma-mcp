@@ -6,6 +6,7 @@ if (-not (Test-Path -Path ".cursor" -PathType Container)) {
 # 安装依赖
 bun install
 
+# 这里可以直接填server.ts路径也可以不填
 # 创建 mcp.json 文件
 $mcpJson = @"
 {
