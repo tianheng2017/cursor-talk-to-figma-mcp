@@ -12,27 +12,27 @@
 
 ## 📋 Windows 安装指南
 
-### 1️⃣ 安装 Bun 环境
+### 1️⃣ 安装Bun
 
 ```bash
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-### 2️⃣ 配置项目
+### 2️⃣ 生成配置文件
 
 在项目根目录下执行设置命令：
 
 ```bash
-bun setup
+bun setup:win
 ```
 
-### 3️⃣ 启动连接服务
+### 3️⃣ 启动服务
 
 ```bash
 bun socket
 ```
 
-### 4️⃣ 配置 Cursor MCP
+### 4️⃣ 启动MCP客户端
 
 1. 点击 Cursor 右上角齿轮图标 ⚙️
 2. 选择 `MCP` → 启用 `Enable`
@@ -40,14 +40,14 @@ bun socket
 4. 等待命令行窗口打开（**请勿关闭**）
 5. 当左侧出现绿色指示点时，表示连接成功 ✅
 
-### 5️⃣ 开启自动执行模式
+### 5️⃣ 开启Tools自动执行
 
 1. 点击 Cursor 右上角齿轮图标 ⚙️
 2. 进入 `Features`
 3. 勾选 `Enable auto run mode` ✓
 4. 在 `Auto run prompt` 中填入：`仅MCP tools`
 
-### 6️⃣ 安装 Figma 插件
+### 6️⃣ 安装Figma客户端和插件
 
 1. 下载并安装 [Figma 客户端](https://desktop.figma.com/win/FigmaSetup.exe)
 2. 打开 Figma，点击右上角下拉三角 ▼
@@ -56,19 +56,19 @@ bun socket
 
 ## 🚀 开始使用
 
-### 创建设计文件
+### 创建新设计文件
 
 1. 在 Figma 左上角点击 `+` 号
 2. 选择 `New design file`
 
-### 连接到 Cursor
+### 连接到服务
 
 1. 在 Figma 中点击右上角下拉三角 ▼
 2. 依次选择 `Plugins` → `Development` → 刚安装的插件
 3. 点击 `Connect`，获取 channel 码（例如：`m2ga32my`）
    > ⚠️ 请保持此窗口打开，可以拖到一边不妨碍操作
 
-### 启动 AI 设计助手
+### 连接到频道
 
 1. 回到 Cursor 的 聊天窗口
 2. 选择 `Agent` 模式，并选择 `Claude 3.7`
