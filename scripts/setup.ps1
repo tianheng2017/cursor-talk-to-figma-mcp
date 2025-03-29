@@ -11,8 +11,10 @@ $mcpJson = @"
 {
   "mcpServers": {
     "TalkToFigma": {
-      "command": "bunx",
+      "command": "cmd",
       "args": [
+        "/c",
+        "bunx",
         "cursor-talk-to-figma-mcp"
       ]
     }
