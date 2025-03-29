@@ -32,7 +32,7 @@ bun setup:win
 bun socket
 ```
 
-### 4️⃣ 启动MCP服务
+### 4️⃣ 启动MCP
 
 1. 点击 Cursor 右上角齿轮图标 ⚙️
 2. 选择 `MCP` → 启用 `Enable`
