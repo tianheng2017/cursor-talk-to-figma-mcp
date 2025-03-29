@@ -70,7 +70,7 @@ bun socket
 
 ### 启动 AI 设计助手
 
-1. 回到 Cursor 的 Chat 模式
+1. 回到 Cursor 的 聊天窗口
 2. 选择 `Agent` 模式，并选择 `Claude 3.7`
 3. 输入命令：`连接到figma频道{你的channel码}`（例如：`连接到figma频道m2ga32my`）
 4. 等待连接成功确认
