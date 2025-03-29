@@ -61,14 +61,14 @@ bun socket
 1. 在 Figma 左上角点击 `+` 号
 2. 选择 `New design file`
 
-### 连接到服务
+### 连接到websocket服务
 
 1. 在 Figma 中点击右上角下拉三角 ▼
 2. 依次选择 `Plugins` → `Development` → 刚安装的插件
 3. 点击 `Connect`，获取 channel 码（例如：`m2ga32my`）
    > ⚠️ 请保持此窗口打开，可以拖到一边不妨碍操作
 
-### 连接到频道
+### 连接到Figma频道
 
 1. 回到 Cursor 的 聊天窗口
 2. 选择 `Agent` 模式，并选择 `Claude 3.7`
