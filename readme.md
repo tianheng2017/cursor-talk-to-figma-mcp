@@ -26,13 +26,13 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 bun setup:win
 ```
 
-### 3️⃣ 启动服务
+### 3️⃣ 启动websocket服务
 
 ```bash
 bun socket
 ```
 
-### 4️⃣ 启动MCP客户端
+### 4️⃣ 启动MCP服务
 
 1. 点击 Cursor 右上角齿轮图标 ⚙️
 2. 选择 `MCP` → 启用 `Enable`
