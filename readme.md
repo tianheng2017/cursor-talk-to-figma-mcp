@@ -18,7 +18,7 @@
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-### 2️⃣ 生成配置文件
+### 2️⃣ 生成MCP配置文件
 
 在项目根目录下执行设置命令：
 
